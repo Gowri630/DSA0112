@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+
+    cin >> a;
+
+    (a % 3 == 0) ? 
+        cout << "It is divisible by 3" :
+        cout << "Not divisible by 3";
+
+    return 0;
+}

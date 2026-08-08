@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, greater;
+
+    cin >> a >> b;
+
+    greater = (a > b) ? a : b;
+
+    cout << "The greatest number is: " << greater;
+
+    return 0;
+}

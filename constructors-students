@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Student {
+private:
+    string name;
+    int rollNo;
+
+public:
+    Student(string n, int r) : name(n), rollNo(r) {}
+
+    void display() {
+        cout << "Name: " << name << "\nRoll No: " << rollNo << endl;
+    }
+
+    ~Student() {}
+};
+
+int main() {
+    Student s1("Gowri Sankar", 192411246);
+    s1.display();
+    return 0;
+}
+
